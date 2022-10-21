@@ -29,3 +29,7 @@
     E. false, true is 1, 1 does not equal to 2
     F. true, Boolean(2) is true, and === checks the type as well, so true === true is true
 15. A strict equality operator === checks the equality without type conversion. In other words, if a and b are of different types, then a === b immediately returns false without an attempt to convert them. However, == will compare and convert certain types and the result depends. 
+16. See code
+17. [ 2, 4, 6 ] first construct an empty newArr, then for each number in the parameter array, we call doSomething which takes a number and returns a number by multiplying by 2, and we push that new number to newArr. So basically newArr is the double of [ 1 2 3 ].
+18. See code
+19. 1 4 3 2
